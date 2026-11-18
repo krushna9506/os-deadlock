@@ -1,0 +1,33 @@
+# Python
+.venv/
+env/
+venv/
+__pycache__/
+*/__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.pytest_cache/
+
+# Node / Vite / Frontend
+node_modules/
+frontend/node_modules/
+frontend/dist/
+dist/
+.vite/
+frontend/.vite/
+frontend/*.tsbuildinfo
+
+# OS & Environment
+.DS_Store
+Thumbs.db
+desktop.ini
+.env
+.env.local
+*.log
+~$*
+*.tmp
+
+# Editor
+.vscode/
+.idea/
