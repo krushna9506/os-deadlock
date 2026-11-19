@@ -87,6 +87,16 @@ def run_safety(allocation: Matrix, maximum: Matrix, available: Vector) -> dict:
     return {"safe": safe, "sequence": sequence, "need": need, "trace": trace, "message": message}
 
 
+@app.get("/")
+def root():
+    return {
+        "status": "ready",
+        "service": "deadlock-lab-api",
+        "docs": "/docs",
+        "health": "/api/health",
+    }
+
+
 @app.get("/api/health")
 def health():
     return {"status": "ready", "service": "deadlock-lab"}
