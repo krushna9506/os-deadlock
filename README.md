@@ -2,7 +2,7 @@
 
 An interactive operating systems laboratory dashboard for visualizing and analyzing deadlock avoidance, detection, prevention, and recovery.
 
-🌐 **Live Demo:** [https://os-deadlock-dashboard-activity2.onrender.com](https://os-deadlock-dashboard-activity2.onrender.com)
+🌐 **Live Demo:** [https://os-deadlock-dashboard-d4vh.onrender.com](https://os-deadlock-dashboard-d4vh.onrender.com)
 
 ---
 
