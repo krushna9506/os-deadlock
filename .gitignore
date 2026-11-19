@@ -28,6 +28,10 @@ desktop.ini
 ~$*
 *.tmp
 
+# Documents & Reports
+*.docx
+*.doc
+
 # Editor
 .vscode/
 .idea/
